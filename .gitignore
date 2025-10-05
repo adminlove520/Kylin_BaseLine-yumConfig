@@ -35,6 +35,9 @@ __pycache__/
 # .DS_Store
 Thumbs.db
 
+# 确保.gitkeep文件不被忽略，以支持空文件夹上传
+!.gitkeep
+
 # 执行过程中的临时文件
 /tmp/
 /var/tmp/
