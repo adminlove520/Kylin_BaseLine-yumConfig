@@ -1,9 +1,10 @@
-# 结果文件
-*.csv
-政务结果/**.csv */
-政务结果/**.md */
-互联网结果/**.csv */
-互联网结果/**.md */
+# 结果文件 - 互联网结果目录下的CSV和MD文件
+互联网结果/*.md
+互联网结果/Results_csv/*.csv
+
+# 结果文件 - 政务外网结果目录下的CSV和MD文件
+政务外网结果/*.md
+政务外网结果/Results_csv/*.csv
 
 # 敏感信息文件
 # .yumIP.env
@@ -44,3 +45,4 @@ servers.txt
 
 # source 资源文件
 source/
+source/*.csv
