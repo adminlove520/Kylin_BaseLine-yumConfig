@@ -1,6 +1,9 @@
-# 结果文件目录
-# 互联网结果/
-# 政务外网结果/
+# 结果文件
+*.csv
+政务结果/**.csv */
+政务结果/**.md */
+互联网结果/**.csv */
+互联网结果/**.md */
 
 # 敏感信息文件
 # .yumIP.env
@@ -28,7 +31,7 @@ __pycache__/
 *~
 
 # 操作系统相关文件
-.DS_Store
+# .DS_Store
 Thumbs.db
 
 # 执行过程中的临时文件
@@ -36,8 +39,8 @@ Thumbs.db
 /var/tmp/
 
 # 服务器列表文件（根据需要可生成）
-# servers.txt
-# .server_passwords.txt
+servers.txt
+.server_passwords.txt
 
 # source 资源文件
-# source/
+source/
