@@ -43,15 +43,7 @@ Thumbs.db
 servers.txt
 .server_passwords.txt
 
-# source 资源文件
-/source/
-source/
-source/*
-source/**
+# source 资源文件 - 只忽略CSV文件，保留文件夹
+/source/*.csv
 source/*.csv
-source/**/*.csv
-**/source/
-**/source/*
-**/source/**
 **/source/*.csv
-**/source/**/*.csv
