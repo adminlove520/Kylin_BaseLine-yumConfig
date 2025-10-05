@@ -44,5 +44,14 @@ servers.txt
 .server_passwords.txt
 
 # source 资源文件
+/source/
 source/
+source/*
+source/**
 source/*.csv
+source/**/*.csv
+**/source/
+**/source/*
+**/source/**
+**/source/*.csv
+**/source/**/*.csv
